@@ -167,6 +167,7 @@ h2 {
 .email a {
   font-weight: 600;
   position: relative;
+  margin-right: 1rem;
 }
 .email a::after {
   position: absolute;
