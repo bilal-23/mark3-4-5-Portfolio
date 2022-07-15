@@ -18,10 +18,11 @@
   gap: 5rem;
 }
 .project-card {
-  width: 70%;
+  position: relative;
+  width: 600px;
   padding: 2rem 1rem;
-  border-bottom: 2px solid var(--secondary-color);
-  border-left: 2px solid var(--secondary-color);
+  /* border-bottom: 2px solid var(--secondary-color); */
+  border: 2px solid var(--secondary-color);
   display: grid;
   grid-template-rows: 10rem 5rem 2rem;
   padding-bottom: 2rem;
@@ -29,6 +30,7 @@
   gap: 2rem;
 }
 .project-top {
+  width: 80%;
   display: flex;
   justify-content: space-between;
 }
@@ -50,6 +52,9 @@
   font-size: 1rem;
 }
 .link-images-container {
+  position: absolute;
+  right: 5px;
+  top: 20px;
   display: flex;
 }
 .link-images-container img {
